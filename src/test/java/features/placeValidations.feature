@@ -1,6 +1,6 @@
 Feature: Validating Place APIs
 
-	@AddPlace
+	@AddPlace @Regression
   Scenario Outline: Verify if place is being added successfully using AddPlaceAPI
     Given Add place payload with "<name>" "<language>" "<address>"
     When user calls "AddPlaceAPI" with "post" http request
@@ -13,7 +13,7 @@ Feature: Validating Place APIs
   	|Frank Buffey | French 	    | 29, Weston Meadow Footfront		|
   	|Joe Tribbiani| Italian			| 14, Scotland West Hill 				|
 
-	@GetPlace
+	@GetPlace @Regression
 	Scenario Outline: Verify if getPlaceAPI is fetching correct information as given while hitting AddPlaceAPI
     Given Add place payload with "<name>" "<language>" "<address>"
     When user calls "AddPlaceAPI" with "post" http request
@@ -28,7 +28,7 @@ Feature: Validating Place APIs
 #  	|Joe Tribbiani| Italian			| 14, Scotland West Hill 				|
 
 
-	@DeletePlace
+	@DeletePlace @Regression
 	Scenario Outline: Verify if delete place functionality is working fine
 		Given DeletePlace payload
 		When user calls "DeletePlaceAPI" with "DELETE" http request
