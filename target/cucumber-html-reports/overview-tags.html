@@ -48,32 +48,32 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@AddPlace",  "@DeletePlace",  "@GetPlace", ] ,
+        labels:  [ "@AddPlace",  "@DeletePlace",  "@GetPlace",  "@Regression", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00,  100.00,  100.00, ] 
+                data:  [ 100.00,  100.00,  100.00,  100.00, ] 
             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00,  0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00,  0.00, ] 
             }
         ]
     };
@@ -133,9 +133,9 @@ $(document).ready(function() {
   </thead>
   <tbody>
     <tr class="info">
-      <td>cucumber-jvm-example</td>
+      <td>API Testing Practices</td>
         <td>1</td>
-      <td>24 Jun 2021, 22:10</td>
+      <td>25 Jun 2021, 21:35</td>
     </tr>
   </tbody>
 </table>
@@ -210,7 +210,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="10705000000">10.705</td>
+        <td class="duration" data-value="3334000000">3.334</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -227,7 +227,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="2389000000">2.389</td>
+        <td class="duration" data-value="2206000000">2.206</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
@@ -244,7 +244,24 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="3000000000">3.000</td>
+        <td class="duration" data-value="2205000000">2.205</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-tag_2226523296.html">@Regression</a></td>
+
+        <td      class="passed"    >20</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">20</td>
+
+        <td  class="passed"    >4</td>
+        <td >0</td>
+        <td class="total">4</td>
+
+        <td class="duration" data-value="7745000000">7.745</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -252,19 +269,19 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>20</td>
+      <td>40</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>20</td>
+      <td>40</td>
 
-      <td>4</td>
+      <td>8</td>
       <td>0</td>
-      <td>4</td>
+      <td>8</td>
 
-      <td class="duration">16.094</td>
-      <td>3</td>
+      <td class="duration">15.490</td>
+      <td>4</td>
     </tr>
     <tr>
       <td></td>

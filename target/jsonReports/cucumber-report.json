@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-24T16:38:28.130Z",
+        "start_timestamp": "2021-06-25T16:05:05.075Z",
         "line": 13,
         "name": "Verify if place is being added successfully using AddPlaceAPI",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3550000000,
+              "duration": 944000000,
               "status": "passed"
             },
             "line": 5,
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 4670000000,
+              "duration": 1393000000,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 7,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 2025000000,
+              "duration": 668000000,
               "status": "passed"
             },
             "line": 8,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 9,
@@ -119,11 +119,14 @@
         "tags": [
           {
             "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-24T16:38:38.673Z",
+        "start_timestamp": "2021-06-25T16:05:08.172Z",
         "line": 14,
         "name": "Verify if place is being added successfully using AddPlaceAPI",
         "description": "",
@@ -133,7 +136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 5,
@@ -159,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 352000000,
+              "duration": 271000000,
               "status": "passed"
             },
             "line": 6,
@@ -181,7 +184,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -215,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 27000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 9,
@@ -239,11 +241,14 @@
         "tags": [
           {
             "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-24T16:38:39.113Z",
+        "start_timestamp": "2021-06-25T16:05:08.500Z",
         "line": 27,
         "name": "Verify if getPlaceAPI is fetching correct information as given while hitting AddPlaceAPI",
         "description": "",
@@ -253,7 +258,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 18,
@@ -279,7 +284,7 @@
           },
           {
             "result": {
-              "duration": 312000000,
+              "duration": 273000000,
               "status": "passed"
             },
             "line": 19,
@@ -312,7 +317,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 21,
@@ -334,7 +339,7 @@
           },
           {
             "result": {
-              "duration": 32000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 22,
@@ -356,7 +361,7 @@
           },
           {
             "result": {
-              "duration": 2615000000,
+              "duration": 1907000000,
               "status": "passed"
             },
             "line": 23,
@@ -380,15 +385,17 @@
         "tags": [
           {
             "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-24T16:38:42.121Z",
+        "start_timestamp": "2021-06-25T16:05:10.707Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -405,7 +412,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 33,
@@ -417,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 2362000000,
+              "duration": 2193000000,
               "status": "passed"
             },
             "line": 34,
@@ -450,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 36,
@@ -474,6 +481,9 @@
         "tags": [
           {
             "name": "@DeletePlace"
+          },
+          {
+            "name": "@Regression"
           }
         ]
       }
