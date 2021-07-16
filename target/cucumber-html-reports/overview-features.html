@@ -50,7 +50,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                20,
+                4,
                 0,
                 0,
                 0,
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 20) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 4) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,7 +106,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                4,
+                1,
                 0
             ],
             backgroundColor: [
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 4) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,9 +228,10 @@ $(document).ready(function() {
   </thead>
   <tbody>
     <tr class="info">
-      <td>API Testing Practices</td>
+      <td>API Testing
+								Practices</td>
         <td>1</td>
-      <td>25 Jun 2021, 21:35</td>
+      <td>16 Jul 2021, 19:06</td>
     </tr>
   </tbody>
 </table>
@@ -327,18 +328,18 @@ $(document).ready(function() {
       <tr>
         <td class="tagname"><a href="report-feature_2001731315.html">Validating Place APIs</a></td>
 
-        <td      class="passed"    >20</td>
+        <td      class="passed"    >4</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td >0</td>
-        <td class="total">20</td>
-
-        <td  class="passed"    >4</td>
         <td >0</td>
         <td class="total">4</td>
 
-        <td class="duration" data-value="7745000000">7.745</td>
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="4968000000">4.968</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -346,18 +347,18 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>20</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>20</td>
-
       <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>4</td>
 
-      <td class="duration">7.745</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+
+      <td class="duration">4.968</td>
       <td>1</td>
     </tr>
     <tr>
