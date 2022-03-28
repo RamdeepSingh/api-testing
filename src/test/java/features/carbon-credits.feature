@@ -1,6 +1,6 @@
 Feature: Validating random payloads
 
-	@Regression
+	@Regression 
   Scenario Outline: Verify the Carbon credits' Promotions
     Given User prepares a base payload to hit an endpoint
     And user adds additional parameters to get final payload
